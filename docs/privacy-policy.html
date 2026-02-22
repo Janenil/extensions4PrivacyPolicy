@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codify Browser Extension - Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #f9fafb;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #111;
+    }
+    p, li { margin-bottom: 0.5rem; }
+    ul { padding-left: 1.5rem; }
+    .update-date { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    a { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Codify Browser Extension - Privacy Policy</h1>
+    <p class="update-date">Last updated: February 22, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>Codify Browser Extension ("the Extension") is a browser productivity tool that helps users save web content, take screenshots, and organize notes. We take your privacy seriously and are committed to protecting your personal information. This privacy policy explains what data we collect, how we use it, and your rights.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>The Extension collects and processes the following types of data <strong>only when you actively use a feature</strong>:</p>
+    <ul>
+      <li><strong>Page Content:</strong> When you choose to save a page, the Extension extracts the main article content (title, URL, and text) from the currently active tab.</li>
+      <li><strong>Screenshots:</strong> When you initiate a screenshot, the Extension captures the visible area or a selected region of the current tab.</li>
+      <li><strong>User Notes:</strong> Any notes you write within the Extension.</li>
+      <li><strong>Configuration Settings:</strong> Your server URL and shortcut preferences, stored locally in your browser.</li>
+    </ul>
+
+    <h2>3. How We Use Your Data</h2>
+    <p>All data collected is used solely for the following purposes:</p>
+    <ul>
+      <li>Saving web content and screenshots to your configured server.</li>
+      <li>Storing your preferences locally within the browser to provide a personalized experience.</li>
+    </ul>
+    <p>We do <strong>not</strong> use your data for advertising, analytics, tracking, or any purpose unrelated to the Extension's core functionality.</p>
+
+    <h2>4. Data Storage and Transmission</h2>
+    <ul>
+      <li><strong>Local Storage:</strong> Your settings (server URL, shortcuts, feature flags) are stored locally in your browser using the <code>browser.storage.local</code> API. This data never leaves your device unless you explicitly export it.</li>
+      <li><strong>Server Transmission:</strong> When you actively save content, screenshots, or notes, the data is sent to the server URL you have configured in the Extension's settings. The Extension does not send data to any third-party servers.</li>
+    </ul>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell, trade, or transfer your data to third parties. Your data is only sent to the server endpoint that you configure yourself.</p>
+
+    <h2>6. Permissions Explained</h2>
+    <ul>
+      <li><strong>activeTab:</strong> To access the content of the tab you are currently viewing when you trigger a save action.</li>
+      <li><strong>scripting:</strong> To extract page content from the active tab.</li>
+      <li><strong>storage:</strong> To save your preferences locally.</li>
+      <li><strong>tabs:</strong> To get the URL and title of the current tab for content saving.</li>
+    </ul>
+
+    <h2>7. User Control</h2>
+    <p>You have full control over your data:</p>
+    <ul>
+      <li>You can choose which pages to save — the Extension never automatically collects data.</li>
+      <li>You can modify or delete your settings at any time through the Extension's options page.</li>
+      <li>You can uninstall the Extension at any time, which will remove all locally stored data.</li>
+    </ul>
+
+    <h2>8. Security</h2>
+    <p>We implement reasonable security measures to protect your data. All data transmission follows the protocol of your configured server URL. We recommend using HTTPS endpoints for secure data transmission.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>The Extension is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated "Last updated" date.</p>
+
+    <h2>11. Contact Us</h2>
+    <p>If you have any questions about this privacy policy or the Extension's data practices, please contact us by opening an issue on our <a href="https://github.com/user/codify-browser-extension/issues">GitHub repository</a>.</p>
+  </div>
+</body>
+</html>
